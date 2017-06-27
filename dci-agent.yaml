@@ -1,0 +1,3 @@
+- hosts: centos1
+  roles:
+    - setup_dci

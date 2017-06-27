@@ -1,0 +1,6 @@
+PrettyTable>=0.7.2, <0.8
+six>=1.9, <2.0
+requests
+PyYAML>=3.0, <4.0
+click>=6.3 # EL7 version
+setuptools
