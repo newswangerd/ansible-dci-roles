@@ -1,6 +1,8 @@
 - name: Ensure that they system is running Red Hat
   assert:
-    that: ansible_os_family == "RedHat"
+    that:
+      - ansible_os_family == "RedHat"
+      - ansible_distribution_major_version == "7"
 
 - name: Ensure required variables are defined
   fail: msg="{{ item }} value missing and is required"
